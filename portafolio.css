@@ -50,42 +50,26 @@ h5{
     color: #fff;
     font-weight: 300;
 }
-a{
-    font-size: 12px;
-    font-family:'Noto Sans SC', sans-serif;
-    color: #C59489;
-    font-weight: 500;
-}
+
 
 /*SECCIÓN PROYECTOS*/ 
 
+.proyectos-inicio{
+    text-align: center;
+}
 #container1{
     margin-top:6%;
 }
-.titulos-proyectos{
-    margin-bottom: 4%;
-    font-weight: 600;
-    color: #243750; 
-}
+
 #container1,#container2{
     margin-bottom: 6%;
 }
-.ux-zone{
-    color: #686B6F;
-}
 .btn-proyecto{
-    background: #4D5D71;
-    padding: 12px 0 12px 0;
-    text-align: center;
-    margin-left:3%;
-    margin-top: 4%;
+    margin-top: 8%;
 }
-.btn-letra{
-    color: white;
+.btn-proyect:hover{
+    opacity: .4;
 }
-
-
-
 
 /* FOOTER */
 
@@ -105,38 +89,36 @@ footer{
     margin-top: 3%;
     text-align: center;
 }
+.btn-contacto :hover{
+    opacity: .8 ;
+}
 #name-footer{
     margin-left: 80%;
     color: white;
 }
 
-
-/*  Estilos por sección */
-#parte1{
-    padding-top: 8%;
+/*  Estilos SOBRE MI */
+.titulo-sobremi{
+    text-align: center;
+    margin: 7% 0 7% 0;
+}
+.sobremi{
+  text-align: center;
+    margin: 0 0 6% 0;
+}
+.btn-cv{
+    margin-left:27%;
+    margin-bottom: 10%;   
+}
+.btn-cv:hover{
+    opacity: .8;
+}
+.btn-cv2:hover{
+    opacity: .8;
 }
 
-#contacto2{
-    margin-left: 15%;
-}
-#conocimientos{
-    margin-left: 15%;
-}
 #habilidades{
-    text-align:center;
-}
-#finalmi{
-    padding-top: 5%;
-    padding-left: 29%;
-}
-.curriculum{
-    padding-left: 39%;
-}
-.curri{
-    margin-left: 8%;
-}
-.pd-section{
-    padding-top: 3%;
+    margin-bottom: 3%;
 }
 
 /*CUMPLO ZONA*/
@@ -148,5 +130,20 @@ footer{
 #titulo-cumplo{
     margin: 9% 0 4% 0;
 }
+ .embed-preview embed-preview--show{
+     border: none;
+     background: #fff;
+ }
+.problem{
+    margin-top: 8%;
+}
+#ideacion-cumplo{
+    margin-left: 19%;
+}
 
+/*VALORA ZONA*/
+
+
+
+ 
 
