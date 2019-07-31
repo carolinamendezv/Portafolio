@@ -1,9 +1,10 @@
 /*  ESTILOS PAGINA PRINCIPAL */
 body{
     color: #FCFCFC;
+
 }
 #img-fondo{
-background: url(fondo4.png);
+background: url(fondo5.png);
 padding-bottom: 5%;
 }
 .navegador{
@@ -54,15 +55,19 @@ h5{
 
 /*SECCIÓN PROYECTOS*/ 
 
+.titulo-proyect{
+    text-align: center;
+    margin: 3% 0 6% 0;
+}
 .proyectos-inicio{
     text-align: center;
 }
-#container1{
+#container2{
     margin-top:6%;
 }
 
-#container1,#container2{
-    margin-bottom: 6%;
+.proyect{
+    margin-bottom: 7%;
 }
 .btn-proyecto{
     margin-top: 8%;
@@ -70,6 +75,7 @@ h5{
 .btn-proyect:hover{
     opacity: .4;
 }
+
 
 /* FOOTER */
 
@@ -80,20 +86,23 @@ footer{
     background: #232323;
 }
 .footer-frase{
-    margin-left: 27%;
-    margin-bottom: 1%;
+    text-align: center;
+    margin-bottom: 2%;
 }
 .btn-contacto{
     margin-left: 38%;
     margin-bottom: 4%;
     margin-top: 3%;
-    text-align: center;
+   
 }
 .btn-contacto :hover{
     opacity: .8 ;
 }
+.prototipo :hover{
+    opacity: .8;
+}
 #name-footer{
-    margin-left: 80%;
+  text-align: left;
     color: white;
 }
 
