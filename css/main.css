@@ -2009,7 +2009,7 @@ display: table;
     padding-top: 2rem;
     text-align: left;
 }
-#sintesis-cumplo{
+#sintesis-cumplo, #sintesis-vida{
     margin-bottom: 6%;
 }
 .home-content__buttons .btn {
