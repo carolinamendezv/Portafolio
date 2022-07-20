@@ -83,7 +83,7 @@ body {
     margin: 0;
     padding: 0;
 }
-#top{
+#top, #topValora, #topVida, #topCumplo{
     background: #FFFFFF;
 }
 #parrafo{
@@ -1139,7 +1139,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #828282;
 }
 
-
 /* ------------------------------------------------------------------- 
  * ## skillbars 
  * ------------------------------------------------------------------- */
@@ -1386,7 +1385,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding-bottom: 2.1rem;
     position: relative;
 }
-
+#linkedinMargin{
+    margin-left: 0% !important;
+    text-align: left !important;
+}
+#curriMargin{
+    margin-left: 9%;
+}
 .section-header.has-bottom-sep::before {
     content: "";
     display: inline-block;
@@ -2004,7 +2009,7 @@ display: table;
     padding-top: 2rem;
     text-align: left;
 }
-#sintesis-cumplo{
+#sintesis-cumplo, #sintesis-vida{
     margin-bottom: 6%;
 }
 .home-content__buttons .btn {
@@ -2191,7 +2196,9 @@ html.no-csstransitions .home-content__main {
         transform: translate3d(0, 0, 0);
     }
 }
-
+.margenInicio{
+    margin-top:4%;
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -2285,9 +2292,7 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 700px) {
-    .home-content__main {
-        max-width: 490px;
-    }
+   
     .home-content__buttons {
         padding-top: 1.2rem;
         text-align: center;
@@ -2297,14 +2302,8 @@ html.no-csstransitions .home-content__main {
         width: 70%;
         margin: 1.5rem 0 0 0;
     }
-    .home-social {
-        right: 4rem;
-    }
     .home-content__scroll {
         right: 7.5rem;
-    }
-    .home-content__line {
-        right: 5.5rem;
     }
 }
 
@@ -2345,7 +2344,7 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 530px) {
     .home-content__buttons {
         padding-top: 1.0rem;
         text-align: center;
@@ -2355,26 +2354,13 @@ html.no-csstransitions .home-content__main {
         width: 60%;
         margin: 1.5rem 0 0 0;
     }
-    
-    .home-content h1 {
-        font-size: 3.5rem;
-    }
-    .home-content__main {
-        text-align: center;
-        max-width: 349px;
-        padding-top: 15rem;
-        padding-right: 25px;
-    
-    }
+
     .home-content__buttons {
         padding-top: 1.2rem;
     }
     .home-content__buttons .btn {
         width: auto;
         margin: 1.5rem 0 0 0;
-    }
-    .home-social {
-        display: none;
     }
 }
 
@@ -2409,6 +2395,27 @@ html.no-csstransitions .home-content__main {
     }
 }
 */
+
+@media only screen and (max-width: 530px) {
+    .home-content__buttons {
+        padding-top: 1.0rem;
+        text-align: center;
+    }
+    .home-content__buttons .btn {
+        display: block;
+        width: 60%;
+        margin: 1.5rem 0 0 0;
+    }
+
+    .home-content__buttons {
+        padding-top: 1.2rem;
+    }
+    .home-content__buttons .btn {
+        width: auto;
+        margin: 1.5rem 0 0 0;
+    }
+}
+
 .invisible{
     display: none;
     
@@ -2420,28 +2427,30 @@ html.no-csstransitions .home-content__main {
 }
 @media only screen and (max-width: 530px) {
     .invisible{
-        display:block !important;
-        width: 100%;
+        display: inline!important;
         margin: 0%;
     }
 }
 @media only screen and (max-width: 530px) {
     .principal .home-content__main{
-        padding-top: 10%;
-        margin: 15% 0 2% 2%;
+        padding-top: 12%;
+        margin-top: 15%;
+        margin-bottom: 2%;
     }
 }
 @media only screen and (max-width: 530px) {
     .home-content__main{
         padding-top: 12%;
-        padding-bottom: 6%;
+        padding-bottom: 2%;
     }
 }
+
 @media only screen and (max-width: 530px) {
     .home-content{
        height: auto;
     }
 }
+
 @media only screen and (max-width: 530px) {
     .s-home2{
        min-height: 0% !important;
@@ -2449,17 +2458,24 @@ html.no-csstransitions .home-content__main {
     }
 }
 @media only screen and (max-width: 530px) {
-    .imgTC {
-        width: 100%;
-        margin: 0%;
+    .header-logo{
+        margin-left: -16% !important;
+        margin-top: -6%;
     }
 }
 @media only screen and (max-width: 530px) {
-    .imgTC2 {
-        width: 100%;
-        margin: 0%;
-        padding-left: 20px;
-        padding-right: 20px;
+    .header-menu-text{
+       display: none;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .header-menu-icon{
+        margin-top: -45%;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .header-menu-toggle{
+        margin-right: -18% !important;
     }
 }
 @media only screen and (max-width: 530px) {
@@ -2467,8 +2483,27 @@ html.no-csstransitions .home-content__main {
         margin-left: 7%;
     }
 }
+
 @media only screen and (max-width: 530px) {
     #prototipoCumplo{
+        width: 100% !important;
+        margin: 0%;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 530px) {
+    #prototipoVida{
+        width: 100% !important;
+        margin: 0%;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 530px) {
+    #prototipoValora{
         width: 100% !important;
         margin: 0%;
         padding-left: 20px;
@@ -3089,12 +3124,17 @@ html.no-csstransitions .home-content__main {
     
     background-repeat: no-repeat;
     background-position: center, center;
-    padding-top: 6%;
-    padding-bottom: 4rem;
+    padding-top: 2%;
+    padding-bottom: 1%;
     color:#151515 ;
     position: relative;
 }
-
+.especial{
+    margin-top:1.5%;
+}
+.proyecttE{
+    margin-top:4%;
+}
 
 
 .s-contact .form-field {
@@ -3618,7 +3658,7 @@ footer .row {
         margin: -.6rem auto 3.6rem;
     }
     .footer-bottom {
-        padding-bottom: .6rem;
+        padding-bottom: 1% !important;
     }
     .footer-bottom .copyright span {
         display: block;
